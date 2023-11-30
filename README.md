@@ -8,3 +8,13 @@ The purpose of this project is to extract OCR content from the document video up
 
 I will be continuosly updating this repository as my learning and this project progresses
 
+# Frames combinig Algorithm pseudo code
+after extracting frames, now in order to merge common consecutive frames into one in order to get complete command which might be devided into different frames like <br>
+pip  <br>
+pip install <br>
+pip install opencv <br>
+
+  to merging into single frame with command **pip install opencv**, i designed pseudo code which i will be using for the same as 
+![Uploading image.jpeg…]()
+
+  
