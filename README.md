@@ -16,6 +16,8 @@ pip install opencv <br>
 
   to merging into single frame with command **pip install opencv**, i designed pseudo code which i will be using for the same as 
 
+**NOTE :** The working code for below image is developed and independently kept in 'frame_stitching_approach.py' python file. After Developing below algorithm, I tried with basic approach of just-next frame comparison with current frame and that suited well with my case and worked as expected. So I replace this approach with the simpler 2nd approach.
+
 ![image](https://github.com/manindersingh120996/VideoOCR/assets/72062554/7872c8fa-a58f-414b-b62a-83665a55c928)
 
 
