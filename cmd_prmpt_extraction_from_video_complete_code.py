@@ -1,3 +1,13 @@
+import cv2
+import numpy as np
+import os
+import pytesseract
+import re
+image_frames = 'image_frames/'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\10710548\D Drive\Tesseract-OCR\tesseract.exe'
+from PIL import Image
+import time
+
 class VideoOcr():
     """
     This class contains the code to break the input video
@@ -15,7 +25,7 @@ class VideoOcr():
     template_path : path of command prompt template to match images with
     image_storage: temporary storage to save extracted frames
     combined_frame_storage : to store the combined frames
-    
+
     
     """
     def __init__(self,video_path,template_path,image_storage,combined_frame_storage):
